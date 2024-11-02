@@ -1,0 +1,88 @@
+.layout-shedule {
+    height: 100vh;
+    background-image: url("../../public/background1.jpg");
+    background-size: cover;
+    background-position: center top;
+    overflow: hidden;
+
+    .content {
+        height: 100%;
+        width: 100%;
+        padding: 4vh 10vw;
+        color: white;
+        text-wrap: nowrap;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: white transparent;
+        
+        .flex {
+            width: 100%;
+
+            .container {
+                width: 100%;
+                height: fit-content;
+            }
+
+            .day-container {
+                height: 10vh;
+                width: 100%;
+                font: 2em main;
+
+                .line {
+                    height: 0.3vh;
+                    width: 40%;
+                    border: solid 0.3vh white;
+                }
+            }
+
+            .games {
+                width: 100%;
+                font: 1.5vw main;
+
+                .game {
+                    width: 100%;
+                    height: 10vh;
+
+                    border-radius: 10vh;
+                    border: solid 1px white;
+
+                    .team {
+                        flex-wrap: nowrap;
+                        height: 100%;
+                        .logo {
+                            height: 100%;
+                            width: 5vw;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            &.ab {
+                                background-image: url("../../public/ab_logo.png");
+                            }
+                            &.de {
+                                background-image: url("../../public/de_logo.png");
+                            }
+                            &.pg {
+                                background-image: url("../../public/pg_logo.png");
+                            }
+                            &.ts {
+                                background-image: url("../../public/ts_logo.png");
+                            }
+                            &.je {
+                                background-image: url("../../public/je_logo.png");
+                            }
+                            &.gg {
+                                background-image: url("../../public/gg_logo.png");
+                            }
+                            &.ht {
+                                background-image: url("../../public/ht_logo.png");
+                            }
+                            &.sf {
+                                background-image: url("../../public/sf_logo.png");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

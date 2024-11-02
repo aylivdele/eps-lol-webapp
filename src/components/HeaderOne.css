@@ -1,0 +1,52 @@
+
+.header-one {
+    background: transparent !important;
+    padding: 2vh;
+    height: 8vh;
+    .flex {
+        height: 100%;
+    }
+
+    
+    .left-image {
+        height: 100%;
+        width: 30vw;
+        color: white;
+        font: 1vw main;
+    }
+
+    .long-line,.short-line {
+        border: solid white .25vh;
+        height: 0.25vh;
+    }
+
+    .long-line {
+        width: 40%;
+    }
+    .short-line {
+        width: 7%;
+    }
+
+    .center-image {
+        height: 100%;
+        width: 20vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-image: url('../../public/logo_legends.png');
+    }
+
+    .right-image {
+        height: 100%;
+        width: 30vw;
+        
+        .image {
+            height: 100%;
+            width: 2vw;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 100%;
+            background-image: url('../../public/cross.png');
+        }
+    }
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "date": "14.10",
+        "day": "DAY 1",
+        "games": [
+            {
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            },{
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            },{
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            },{
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            }
+        ]
+    },{
+        "date": "15.10",
+        "day": "DAY 2",
+        "games": [
+            {
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            },{
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            },{
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            },{
+                "leftTeam": "GRIZZLY GAMING",
+                "rightTeam": "GRIZZLY GAMING",
+                "time": "15:00"
+            }
+        ]
+    }
+]

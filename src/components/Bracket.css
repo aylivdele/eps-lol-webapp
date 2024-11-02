@@ -1,0 +1,102 @@
+.layout-bracket {
+    height: 100vh;
+    background-image: url("../../public/background1.jpg");
+    background-size: cover;
+    background-position: center top;
+
+    .content {
+        height: 100%;
+        padding: 4vh 10vw;
+    
+        color: white;
+        
+        .flex {
+            height: 100%;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 4vw;
+
+            .group {
+                padding-top: 5%;
+                padding-bottom: 2%;
+                /* border: solid 1px white; */
+
+                .group-name {
+                    font-size: 2em;
+                    text-shadow: -0.3vh 0.2vw red;
+                }
+    
+                &.vertical {
+                    width: 80vw;
+                    height: auto;
+                    font: 1.5vh main;
+
+                }
+
+                &.horizontal {
+                    width: 36vw;
+                    height: auto;
+                    font: 1.2vw main;
+                }
+                .teams {
+                    gap: 2vh;
+                    width: 80%;
+                    height: 80%;
+                }
+                .team {
+                    text-wrap: nowrap;
+                    text-align: left;
+                    
+
+                    height: 20%;
+                    
+                    background: linear-gradient(#353535bd, #00000069);
+    
+                    padding: 1vh;
+                    padding-left: 3vw;
+                    border-radius: 5vw;
+                    /* border: solid 2px white; */
+                    box-shadow: rgb(80, 80, 80) 0 0 1px 1px;
+    
+                    .logo {
+                        margin: 1vh 0;
+                        width: 25%;
+                        height: 100%;
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        &.ab {
+                            background-image: url("../../public/ab_logo.png");
+                        }
+                        &.de {
+                            background-image: url("../../public/de_logo.png");
+                        }
+                        &.pg {
+                            background-image: url("../../public/pg_logo.png");
+                        }
+                        &.ts {
+                            background-image: url("../../public/ts_logo.png");
+                        }
+                        &.je {
+                            background-image: url("../../public/je_logo.png");
+                        }
+                        &.gg {
+                            background-image: url("../../public/gg_logo.png");
+                        }
+                        &.ht {
+                            background-image: url("../../public/ht_logo.png");
+                        }
+                        &.sf {
+                            background-image: url("../../public/sf_logo.png");
+                        }
+                        
+                    }
+                }
+            }
+            
+        }
+        
+    }
+}
+
+

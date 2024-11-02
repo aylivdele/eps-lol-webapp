@@ -1,0 +1,52 @@
+
+
+.footer {
+    background: transparent !important;
+    padding: 2vh 5vw;
+    height: 8vh;
+
+
+    .flex {
+        height: 100%;
+
+        > * {
+            width: 20%
+        }
+    }
+
+    .l-logo {
+        height: 100%;
+        width: 20vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        /* background-position: 10%; */
+        background-image: url('../../public/l_logo.png');
+    }
+
+    .long-line,.short-line {
+        border: solid white .25vh;
+        height: 0.25vh;
+    }
+
+    .long-line {
+        width: 40%;
+    }
+    .short-line {
+        width: 7%;
+    }
+
+    .ps-2024-logo {
+        height: 100%;
+        width: 20vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-image: url('../../public/footer_logo.png');
+    }
+
+    .dates {
+        text-align: end;
+        font: 1vw main;
+        color: white;
+    }
+}

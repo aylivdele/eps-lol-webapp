@@ -1,0 +1,80 @@
+
+.header-two {
+    background: transparent !important;
+    padding: 2vh;
+    height: 13vh;
+    .flex {
+        height: 100%;
+    }
+
+    
+    .left-part {
+        height: 100%;
+        width: 30vw;
+        color: white;
+        font: 1vw main;
+        
+        * {
+            height: 50%;
+            width: 100%;
+        }
+        .bottom {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url('../../public/eps_logo_medium.png');
+        }
+    }
+
+    .center-image {
+        height: 100%;
+        width: 20vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-image: url('../../public/eps_logo.png');
+    }
+
+    .right-part {
+        height: 100%;
+        width: 30vw;
+
+        * {
+            height: 50%;
+            width: 100%;
+        }
+        
+        .top {
+
+            .image {
+                height: 100%;
+                width: 2vw;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: 100%;
+                background-image: url('../../public/cross.png');
+            }
+        }
+
+        .bottom {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-image: url('../../public/logo_legends.png');
+        }
+        
+    }
+
+    
+
+    .long-line,.short-line {
+        border: solid white .25vh;
+        height: 0.25vh;
+    }
+
+    .long-line {
+        width: 40%;
+    }
+    .short-line {
+        width: 7%;
+    }
+}
