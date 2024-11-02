@@ -1,13 +1,13 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { Button, Flex, Layout, Menu } from 'antd';
+import React, { useEffect, useState } from 'react';
+import { Button, Layout, Menu } from 'antd';
 import './App.css';
-import { Link, Outlet, useLinkClickHandler, useLocation, useNavigate } from 'react-router-dom';
+import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import Sider from 'antd/es/layout/Sider';
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
 } from '@ant-design/icons';
-const { Header, Content, Footer } = Layout;
+const { Content } = Layout;
 
 
 const items = [
