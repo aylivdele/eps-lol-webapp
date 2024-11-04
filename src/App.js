@@ -66,6 +66,7 @@ const App = () => {
         <Menu
             items={items}
             mode='inline'
+            onClick={ toggleCollapsed }
           />
       </Sider>
       <Content className='content'>

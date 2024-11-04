@@ -46,8 +46,14 @@
                     border-radius: 10vh;
                     border: solid 1px white;
 
+                    .time {
+                        width: 10%;
+                        height: 100%;
+                    }
+
                     .team {
                         flex-wrap: nowrap;
+                        width: 35%;
                         height: 100%;
                         .logo {
                             height: 100%;

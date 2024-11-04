@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import {
   createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import { Bracket } from './components/Bracket';
@@ -15,7 +16,7 @@ import { Shedule } from './components/Shedule';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,

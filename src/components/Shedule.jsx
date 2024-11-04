@@ -69,7 +69,7 @@ export const Shedule = () => {
                                                 <div className={ `logo ${ teams.find(team => team.title === game.leftTeam)?.className }` }/>
                                                 <div className="title">{ game.leftTeam }</div>
                                             </Flex>
-                                            <div className="time">{game.time}</div>
+                                            <Flex justify="center" align="center" className="time">{game.time}</Flex>
                                             <Flex align="center" justify="center" className="team" gap={ '5%'}>
                                                 <div className="title">{ game.rightTeam }</div>
                                                 <div className={ `logo ${ teams.find(team => team.title === game.rightTeam)?.className }` }/>
